@@ -5,7 +5,7 @@ import { Text, TextMemorized, TextWithHOC, TextWithHook } from './components/tex
 
 const App = () => {
 
-    const [currentText, setCurrentText] = useState('')
+    const [currentText, setCurrentText] = useState('Initial Input')
     const [mode, setMode] = useState(0)
 
     let modeComponents
